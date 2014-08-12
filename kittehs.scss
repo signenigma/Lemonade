@@ -1,0 +1,85 @@
+
+/* font */
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+
+$font-family:"Droid Sans", sans-serif;
+
+/* font sizes */
+$font-s-heading:2.6em;
+$font-s-subheading:1.2em;
+$font-s-paragraph:1em; 
+
+$font-w-normal:400;
+$font-w-bold:700;
+
+/* colors */
+
+$color-lemon:#ffde00;
+$color-black:#393939;
+
+* {font-weight:normal;}
+
+body {
+    font-family:$font-family;
+    color:$color-black;
+    background:url("images/bg2.jpg") repeat;
+}
+
+.header {
+    padding:1em;
+    text-align:center;
+    background:#fff;
+}
+
+h1 {
+    margin:0.5em 0 0.5em 0;
+    font-weight:$font-w-bold;
+    font-size:$font-s-heading;
+}
+
+h2, h3, h4 {
+    margin:0.5em 0 0.5em 0;
+    font-weight:$font-w-bold;
+    font-size:$font-s-subheading;
+}
+
+p {
+    margin:0 0 0.5em 0;
+    font-weight:$font-w-normal;
+    font-size:$font-s-paragraph;
+}
+
+img {
+    border:5px solid #fff;
+    transition-property: transform;
+    transition-duration: .1s;
+    transition-timing-function: linear;
+}
+
+img:hover {
+    cursor:pointer;    
+    transform: scale(1.05);
+}
+
+.section-upper {
+    float:left;
+    padding:4em 0 4em 0;
+    width:100%;
+    text-align:center;
+   
+}
+
+.section-lower {
+    background:#fff;
+    float:left;
+    width:100%;
+    
+    img {
+       border:5px solid #f8dc4c;
+   } 
+
+    h3 {
+        font-size:2em;
+    }
+
+}

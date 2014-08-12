@@ -1,0 +1,56 @@
+/* font */
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+/* font sizes */
+/* colors */
+* {
+  font-weight: normal; }
+
+body {
+  font-family: "Droid Sans", sans-serif;
+  color: #393939;
+  background: url("images/bg2.jpg") repeat; }
+
+.header {
+  padding: 1em;
+  text-align: center;
+  background: #fff; }
+
+h1 {
+  margin: 0.5em 0 0.5em 0;
+  font-weight: 700;
+  font-size: 2.6em; }
+
+h2, h3, h4 {
+  margin: 0.5em 0 0.5em 0;
+  font-weight: 700;
+  font-size: 1.2em; }
+
+p {
+  margin: 0 0 0.5em 0;
+  font-weight: 400;
+  font-size: 1em; }
+
+img {
+  border: 5px solid #fff;
+  transition-property: transform;
+  transition-duration: .1s;
+  transition-timing-function: linear; }
+
+img:hover {
+  cursor: pointer;
+  transform: scale(1.05); }
+
+.section-upper {
+  float: left;
+  padding: 4em 0 4em 0;
+  width: 100%;
+  text-align: center; }
+
+.section-lower {
+  background: #fff;
+  float: left;
+  width: 100%; }
+  .section-lower img {
+    border: 5px solid #f8dc4c; }
+  .section-lower h3 {
+    font-size: 2em; }
